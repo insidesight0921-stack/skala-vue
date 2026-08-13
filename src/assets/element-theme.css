@@ -1,0 +1,27 @@
+/* Element Plus 테마를 우리 디자인 토큰(인디고 액센트·Pretendard)에 맞춤.
+   반드시 element-plus css 이후에 로드되어야 오버라이드가 적용됨. */
+:root {
+  --el-color-primary: #4f46e5;
+  --el-color-primary-light-3: #7b74ec;
+  --el-color-primary-light-5: #a7a2f2;
+  --el-color-primary-light-7: #d3d0f8;
+  --el-color-primary-light-8: #e6e4fb;
+  --el-color-primary-light-9: #f2f1fe;
+  --el-color-primary-dark-2: #4338ca;
+
+  --el-border-radius-base: 12px;
+  --el-border-radius-small: 8px;
+  --el-font-family: 'Pretendard Variable', 'Pretendard', 'Inter', -apple-system,
+    'Apple SD Gothic Neo', sans-serif;
+}
+
+/* 다크 모드: html.dark (Element Plus 규약) */
+html.dark {
+  --el-color-primary: #8683f2;
+  --el-color-primary-light-3: #6f6cde;
+  --el-color-primary-light-5: #514fa0;
+  --el-color-primary-light-7: #3a3970;
+  --el-color-primary-light-8: #2f2e5a;
+  --el-color-primary-light-9: #262a55;
+  --el-color-primary-dark-2: #9a97f6;
+}

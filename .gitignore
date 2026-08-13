@@ -7,3 +7,7 @@ dist-ssr/
 .DS_Store
 *.local
 *.log
+.vercel
+.env*
+.eslintcache
+*.tsbuildinfo

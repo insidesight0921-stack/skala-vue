@@ -13,10 +13,12 @@
     "format": "prettier --write --experimental-cli src/"
   },
   "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
     "axios": "^1.19.0",
+    "element-plus": "^2.8.8",
     "leaflet": "^1.9.4",
     "pinia": "^3.0.4",
-    "vue": "beta",
+    "vue": "3.6.0-beta.17",
     "vue-router": "^5.0.4"
   },
   "devDependencies": {
@@ -37,18 +39,18 @@
     "node": "^20.19.0 || >=22.12.0"
   },
   "overrides": {
-    "vue": "beta",
-    "@vue/compiler-core": "beta",
-    "@vue/compiler-dom": "beta",
-    "@vue/compiler-sfc": "beta",
-    "@vue/compiler-ssr": "beta",
-    "@vue/compiler-vapor": "beta",
-    "@vue/reactivity": "beta",
-    "@vue/runtime-core": "beta",
-    "@vue/runtime-dom": "beta",
-    "@vue/runtime-vapor": "beta",
-    "@vue/server-renderer": "beta",
-    "@vue/shared": "beta",
-    "@vue/compat": "beta"
+    "vue": "3.6.0-beta.17",
+    "@vue/compiler-core": "3.6.0-beta.17",
+    "@vue/compiler-dom": "3.6.0-beta.17",
+    "@vue/compiler-sfc": "3.6.0-beta.17",
+    "@vue/compiler-ssr": "3.6.0-beta.17",
+    "@vue/compiler-vapor": "3.6.0-beta.17",
+    "@vue/reactivity": "3.6.0-beta.17",
+    "@vue/runtime-core": "3.6.0-beta.17",
+    "@vue/runtime-dom": "3.6.0-beta.17",
+    "@vue/runtime-vapor": "3.6.0-beta.17",
+    "@vue/server-renderer": "3.6.0-beta.17",
+    "@vue/shared": "3.6.0-beta.17",
+    "@vue/compat": "3.6.0-beta.17"
   }
 }
