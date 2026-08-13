@@ -1,6 +1,6 @@
 <script setup>
-import WeatherApp from './components/WeatherApp.vue'
+import WeatherComposition from './components/WeatherComposition.vue'
 </script>
 <template>
-  <WeatherApp />
+  <WeatherComposition />
 </template>
