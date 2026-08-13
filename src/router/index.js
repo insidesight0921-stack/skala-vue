@@ -4,6 +4,7 @@ const router = createRouter({
   routes: [
     { path: '/', name: 'home', component: () => import('../views/WeatherHomeView.vue') },
     { path: '/about', name: 'about', component: () => import('../views/WeatherAboutView.vue') },
+    { path: '/stats', name: 'stats', component: () => import('../views/StatsView.vue') },
     { path: '/weather/:cityId', name: 'detail', component: () => import('../views/WeatherDetailView.vue') },
     { path: '/:pathMatch(.*)*', name: 'notfound', component: () => import('../views/NotFoundView.vue') },
   ],
