@@ -1,6 +1,6 @@
 <script setup>
-import WeatherComposition from './components/WeatherComposition.vue'
+import WeatherParent from './components/WeatherParent.vue'
 </script>
 <template>
-  <WeatherComposition />
+  <WeatherParent />
 </template>
