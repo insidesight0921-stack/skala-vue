@@ -1,6 +1,11 @@
-<script setup>
-import WeatherParent from './components/WeatherParent.vue'
-</script>
+<script setup></script>
 <template>
-  <WeatherParent />
+  <div>
+    <h1>🌤️ 과제 4: 라우터 적용</h1>
+    <nav class="nav-bar">
+      <RouterLink to="/">날씨 대시보드</RouterLink>
+      <RouterLink to="/about">서비스 소개</RouterLink>
+    </nav>
+    <RouterView />
+  </div>
 </template>
